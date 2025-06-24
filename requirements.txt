@@ -1,0 +1,6 @@
+bs4
+dns
+googlesearch
+requests
+tldextract
+whois
