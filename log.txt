@@ -1,0 +1,229 @@
+
+[+] gdork Output:
+[>>] Running: gdork
+[GDork] Found 8 emails:
+ - appinventor@mit.edu
+ - ovc@mit.edu
+ - execed_assocdean@mit.edu
+ - servicedesk@mit.edu
+ - grad-ed@mit.edu
+ - security@mit.edu
+ - chalkradio@mit.edu
+ - helpdesk@mit.edu
+
+[+] jscan Output:
+[>>] Running: jscan
+[*] Fetching CDN scripts from mit.edu ...
+[!] Error fetching URL: Invalid URL 'mit.edu': No scheme supplied. Perhaps you meant https://mit.edu?
+[JS Scan] No JS URLs found.
+
+[+] run_all Output:
+[>>] Running: run_all
+
+[~] Scanning for directory listings at http://mit.edu/
+
+[~] Checked (code 401): http://mit.edu/images/
+[!] Directory listing ENABLED: http://mit.edu/img/
+[-] Forbidden (403): http://mit.edu/files/
+[!] Directory listing ENABLED: http://mit.edu/logs/
+[~] Checked (code 401): http://mit.edu/private/
+[~] Checked (code 401): http://mit.edu/media/
+[~] Checked (code 401): http://mit.edu/temp/
+[!] Directory listing ENABLED: http://mit.edu/scripts/
+[~] Checked (code 401): http://mit.edu/js/
+[~] Checked (code 401): http://mit.edu/admin/
+[~] Checked (code 401): http://mit.edu/archive/
+
+🔍 Checking DKIM records for mit.edu...
+
+[FOUND] selector2._domainkey.mit.edu:
+  v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7nKiXj7FhbFXLuAfXtQZCTdxZQcoRJMBvQNk9+2I0i221l1gchHkhCrvjhKkOReFzR2ZgFG4ubtClnde2P6ZvMYzIlvH+ImkaH/xTxRJM4CjXNXAxc6+bxw8GKKbbHPW+LcL3uExcdOPaTjr1FkBJqbj4xGcjCbXeUyER1LCJBQIDAQAB;
+
+[FOUND] google._domainkey.mit.edu:
+  v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiSbLt0suIW25ugxKvznkfDnggtLob3rBIDWzkEWx0YltgW3QCABLT" "5Cuc5dyuY1BJ4ECQUSWh37jKOJ2D4ib0l/Si7EkgnjLL/Wb0B9fRZZJz1afaLeFO4KD8Gu0BF954MeNiUQ8WmyiVDA9f0iF+j3WVcBWG3AwKrjxENOE94ehT8Pj/o6lUKQpGdX76GhHr7DOYgn2vRznGGW84WiWPOttoqvbLvLLhnwIKNZ6k14sEPKkxD2tATCOrxr8U7mnhmn52rYhA+idOceZBoBgomKf6vRvd0P" "4GDIMeNiMQnVBdU7FqxEl7LjyRGxKmZSvZlb8YtSv3CQfQHPXkSbGfQIDAQAB
+
+[FOUND] mandrill._domainkey.mit.edu:
+  v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;
+
+[FOUND] s1024._domainkey.mit.edu:
+  v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZ7uso31PuEwfyv9xstDYk4spRHxduDPfoYcbjskdXWrK1T82uEjr8rxGROTpO+hzNb1aJSnKA9OYuHhMyA8QLNW1s9id+YPoI5tiMLDgXaN74Ys+AcdShGS8Tp84XcAK7G+7glsGfXdTbtCol2HpQcOzhu8jHhelRQ9nyP8H+4QIDAQAB
+
+[FOUND] DMARC record for mit.edu:
+v=DMARC1; p=none; rua=mailto:dmarcreports@mit.edu
+Note: LIMIT SET TO 10 — increase for deeper analysis
+[~] Searching for employees of: mit.edu (limit=10)
+[1] https://www.linkedin.com/in/raskar
+     ↳ Title: Ramesh Raskar - MIT Media Lab | LinkedIn
+     ↳ Description: Ramesh Raskar is the Associate Director of MIT Media Lab, Assoc. Prof. at MIT and… · Experience: MIT Media Lab · Location: Cambridge · 500+ connections on LinkedIn. View Ramesh Raskar’s profile on LinkedIn, a professional community of 1 billion members.
+[2] https://www.linkedin.com/in/alexanderamini
+     ↳ Title: Alexander Amini - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: Experience: Massachusetts Institute of Technology · Education: Massachusetts Institute of Technology · Location: Cambridge · 500+ connections on LinkedIn. View Alexander Amini’s profile on LinkedIn, a professional community of 1 billion members.
+[3] https://www.linkedin.com/in/will-oliver-qubit
+     ↳ Title: Will Oliver - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: Experience: Massachusetts Institute of Technology · Education: Stanford University · Location: Greater Boston · 500+ connections on LinkedIn. View Will Oliver’s profile on LinkedIn, a professional community of 1 billion members.
+[4] https://www.linkedin.com/in/deblina-sarkar-6bb650a
+     ↳ Title: Deblina Sarkar - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: homepage : https://web.mit.edu/deblina-sarkar/
+
+My research, which combines the… · Experience: Massachusetts Institute of Technology · Location: Cambridge · 500+ connections on LinkedIn. View Deblina Sarkar’s profile on LinkedIn, a professional community of 1 billion members.
+[5] https://www.linkedin.com/in/christinetempesta1
+     ↳ Title: Christine Tempesta - Massachusetts Institute of Technology (MIT) | LinkedIn
+     ↳ Description: Experience: Massachusetts Institute of Technology (MIT) · Location: Cambridge · 500+ connections on LinkedIn. View Christine Tempesta’s profile on LinkedIn, a professional community of 1 billion members.
+[6] https://www.linkedin.com/in/luca-carlone-9071b331
+     ↳ Title: Luca Carlone - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: lucacarlone.mit.edu · Experience: Massachusetts Institute of Technology · Education: Politecnico di Torino · Location: Cambridge · 500+ connections on LinkedIn. View Luca Carlone’s profile on LinkedIn, a professional community of 1 billion members.
+[7] https://www.linkedin.com/in/admirmasic/en
+     ↳ Title: N/A
+     ↳ Description: N/A
+[8] https://www.linkedin.com/in/saurabh-amin-361463239
+     ↳ Title: Saurabh Amin - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: I am a Professor in the Department of Civil and Environmental Engineering at MIT. I am a… · Experience: Massachusetts Institute of Technology · Education: University of California, Berkeley · Location: Cambridge · 500+ connections on LinkedIn. View Saurabh Amin’s profile on LinkedIn, a professional community of 1 billion members.
+[9] https://www.linkedin.com/in/sangeeta-bhatia-38663b9
+     ↳ Title: Sangeeta Bhatia - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: Experience: Massachusetts Institute of Technology · Education: Harvard Medical School · Location: Cambridge · 500+ connections on LinkedIn. View Sangeeta Bhatia’s profile on LinkedIn, a professional community of 1 billion members.
+[10] https://www.linkedin.com/in/afreen-siddiqi-2b985b4
+     ↳ Title: Afreen Siddiqi - Massachusetts Institute of Technology | LinkedIn
+     ↳ Description: Expert in analysis and modeling for informing design and operations of systems for earth… · Experience: Massachusetts Institute of Technology · Education: Massachusetts Institute of Technology · Location: United States · 500+ connections on LinkedIn. View Afreen Siddiqi’s profile on LinkedIn, a professional community of 1 billion members.
+The domain mit.edu is active. 36 days until expiration.
+
+🔍 Headers exposed by http://mit.edu:
+
+[EXPOSED] Server: Apache
+[+] Scanning http://mit.edu for common sensitive files & directories...
+[!] http://mit.edu/robots.txt -> 200
+[!] http://mit.edu/.htaccess -> 403
+[!] http://mit.edu/.htpasswd -> 403
+[!] http://mit.edu/admin/ -> 401
+[!] http://mit.edu/login/ -> 401
+[!] http://mit.edu/test.php -> 200
+[!] http://mit.edu/migrations/ -> 401
+[!] http://mit.edu/logs/ -> 200
+[!] http://mit.edu/.bash_history -> 200
+[!] http://mit.edu/admin/ -> 401
+[!] http://mit.edu/login/ -> 401
+[!] http://mit.edu/user/ -> 401
+[!] http://mit.edu/auth/ -> 401
+[!] http://mit.edu/portal/ -> 200
+[!] http://mit.edu/security/ -> 200
+[!] http://mit.edu/security/login -> 200
+[!] http://mit.edu/mysql/ -> 401
+[!] http://mit.edu/webmail/ -> 200
+[!] http://mit.edu/mail/ -> 401
+[>>] Running: gdork
+[GDork] Found 8 emails:
+ - appinventor@mit.edu
+ - ovc@mit.edu
+ - execed_assocdean@mit.edu
+ - servicedesk@mit.edu
+ - grad-ed@mit.edu
+ - security@mit.edu
+ - chalkradio@mit.edu
+ - helpdesk@mit.edu
+
+[>>] Running: jscan
+[*] Fetching CDN scripts from mit.edu ...
+[!] Error fetching URL: Invalid URL 'mit.edu': No scheme supplied. Perhaps you meant https://mit.edu?
+[JS Scan] No JS URLs found.
+
+
+🔎 Scanning http://mit.edu for CMS fingerprint...
+[⚠️] Ghost outdated: v. < latest v5.83.4
+
+🛡️ CVE search for Ghost v....
+[ERROR] CVE fetch failed: 404 Client Error: NOT FOUND for url: https://cve.circl.lu/api/search/ghost
+[+] Server header: Apache
+[❓] Apache detected, but version hidden.
+
+🔍 Scanning http://mit.edu for exposed admin panels...
+
+[FOUND] http://mit.edu/webmail/ (Status: 200)
+[~] Gathering subdomains for mit.edu via DNSDumpster API...
+
+[~] Checking subdomains for takeover potential...
+
+[-] a10.mit.edu has no CNAME record.
+[-] 16-oc11-fsw.mit.edu has no CNAME record.
+[-] ab540201.mit.edu has no CNAME record.
+[-] ns1-173.akam.net has no CNAME record.
+[-] use5.akam.net has no CNAME record.
+[-] ab54011301.mit.edu has no CNAME record.
+[-] aa-prod-web-3.mit.edu has no CNAME record.
+[-] aawonderdrive.mit.edu has no CNAME record.
+[-] ab54012.mit.edu has no CNAME record.
+[-] ab5401701.mit.edu has no CNAME record.
+[-] ab-initio.mit.edu has no CNAME record.
+[-] aa-prod-web-1.mit.edu has no CNAME record.
+[-] aa-test-app-1.mit.edu has no CNAME record.
+[-] aa-w98-call8.mit.edu has no CNAME record.
+[-] ab5401601.mit.edu has no CNAME record.
+[-] ab5401801.mit.edu has no CNAME record.
+[-] aa-anylogic-lic.mit.edu has no CNAME record.
+[-] aaude-warehouse-east-dev-db-1.mit.edu has no CNAME record.
+[-] asia1.akam.net has no CNAME record.
+[-] 109-oc11-fsw.mit.edu has no CNAME record.
+[-] aa-prod-web-4.mit.edu has no CNAME record.
+[-] ab54011.mit.edu has no CNAME record.
+[-] mail10634.aard.mit.edu has no CNAME record.
+[-] aa-w98-call4.mit.edu has no CNAME record.
+[-] eur5.akam.net has no CNAME record.
+[-] 100 mit-edu.mail.protection.outlook.com has no CNAME record.
+[-] ab54010.mit.edu has no CNAME record.
+[-] ns1-37.akam.net has no CNAME record.
+[-] use2.akam.net has no CNAME record.
+[-] 286.mit.edu has no CNAME record.
+[-] ab4402.mit.edu has no CNAME record.
+[-] aa-dev-web-1.mit.edu has no CNAME record.
+[-] ab5509101.mit.edu has no CNAME record.
+[-] ab54008.mit.edu has no CNAME record.
+[-] ab54009.mit.edu has no CNAME record.
+[-] a13.mit.edu has no CNAME record.
+[-] a12.mit.edu has no CNAME record.
+[-] aaude-warehouse-east-prod-db-1.mit.edu has no CNAME record.
+[-] aaude-dev-db-1.mit.edu has no CNAME record.
+[-] a11.mit.edu has no CNAME record.
+[-] aa-dev-web-3.mit.edu has no CNAME record.
+[-] aak.mit.edu has no CNAME record.
+[-] 6a.mit.edu has no CNAME record.
+[-] 100k.mit.edu has no CNAME record.
+[-] ab5510101.mit.edu has no CNAME record.
+[-] aa-prod-web-2.mit.edu has no CNAME record.
+[-] ab5507101.mit.edu has no CNAME record.
+[-] aaude-warehouse-east-prod-db-1-bk.mit.edu has no CNAME record.
+[-] aa-prod-app-1.mit.edu has no CNAME record.
+[-] aa-dev-app-1.mit.edu has no CNAME record.
+[-] ab4403.mit.edu has no CNAME record.
+[-] 3down-test.mit.edu has no CNAME record.
+[-] asia2.akam.net has no CNAME record.
+[-] 3down-r1.mit.edu has no CNAME record.
+[-] aa-print.mit.edu has no CNAME record.
+[-] aa-w98-call7.mit.edu has no CNAME record.
+[-] ab4401.mit.edu has no CNAME record.
+[-] usw2.akam.net has no CNAME record.
+[-] aa-w98-call5.mit.edu has no CNAME record.
+
+[✓] No takeover risks found.
+[SPF FOUND] v=spf1 include:_s00430413.autospf.email -all
+
+🔒 mit.edu
+  > Issued by: DigiCert Inc
+  > Common name: web.mit.edu
+  > Expires in: 310 days
+  > TLS version: TLSv1.2
+[~] Generating typosquatting domains for: mit.edu
+[!] Possible typosquatting domain active: mti.edu
+[!] Possible typosquatting domain active: it.edu
+[!] Possible typosquatting domain active: kit.edu
+[!] Possible typosquatting domain active: mi.edu
+[!] Possible typosquatting domain active: imt.edu
+[NOTE] : Custom ports cannot be scanned as this is not a fully operational NMAP scan.
+
+🔍 Scanning mit.edu for exploited or dangerous ports...
+
+[OPEN]  Port 80 - HTTP - web exploits
+[OPEN]  Port 443 - HTTPS - SSL issues
+
+🔎 Testing http://mit.edu for XSS...
+
+🔎 Testing http://mit.edu for SQL Injection...
+
+✅ No known input vulnerabilities found.
