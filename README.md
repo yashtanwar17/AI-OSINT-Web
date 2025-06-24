@@ -100,6 +100,10 @@ This is just a basic version. Planned improvements include:
 ## 📜 License
 
 This project is free and open-source for educational and research use only.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python Version](https://img.shields.io/pypi/pyversions/your-package-name)]()
+[![Build Status](https://github.com/yashtanwar17/AI‑OSINT‑Web/actions/workflows/ci.yml/badge.svg)]()
+[![Downloads](https://pepy.tech/badge/your-package-name)]()
 
 ---
 
