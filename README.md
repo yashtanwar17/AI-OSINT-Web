@@ -64,6 +64,8 @@ A modular, AI-powered web reconnaissance and vulnerability scanner that helps au
 ## 🛠️ Configuration & Customization
 
 - Modify `main.py` to change the scanning sequence or inputs.
+- Run `flaskweb.py`
+- then run `main.py` and wait, try refreshing flask web for report.
 - Update or replace `sdtakeover.py` and other modules with your own keys/configs — **your API keys will not work with mine**.
 - Want better accuracy or features? Integrate paid services like:
   - Shodan (host detection, ports, vulnerabilities)
