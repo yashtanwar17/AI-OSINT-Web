@@ -106,6 +106,8 @@ This project is free and open-source for educational and research use only.
 ## 🤝 Contributing
 
 Pull requests and suggestions are welcome! Help make this tool even more powerful.
+This project was built with the help of AI tools (including ChatGPT) and various online resources, documentation, and open-source libraries. It served as a learning and experimentation platform to combine OSINT techniques, web security scanning, and AI-powered reporting into one modular system.
+If you find this useful, feel free to contribute or fork it!
 
 ---
 
