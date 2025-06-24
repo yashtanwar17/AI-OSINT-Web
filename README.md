@@ -116,7 +116,7 @@ If you find this useful, feel free to contribute or fork it!
 <details>
 <summary>Click to expand</summary>
 
-![log.txt](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/log.png)
-![AI Report UI](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/report.png)
+![log.txt](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/images/log.png)
+![AI Report UI](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/images/report.png)
 
 </details>
