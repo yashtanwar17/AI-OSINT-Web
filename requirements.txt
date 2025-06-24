@@ -1,6 +1,10 @@
-bs4
-dns
-googlesearch
-requests
-tldextract
-whois
+Flask>=2.0.0
+openai>=1.0.0
+requests>=2.25.0
+dnspython>=2.0.0
+beautifulsoup4>=4.9.3
+lxml>=4.6.0
+python-nmap>=0.7.1
+# - whatweb (sudo apt install whatweb)
+# - retire.js (npm install -g retire)
+# - nodejs (required for retire.js)
