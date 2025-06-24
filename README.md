@@ -116,7 +116,7 @@ If you find this useful, feel free to contribute or fork it!
 <details>
 <summary>Click to expand</summary>
 
-![CLI Scan](https://via.placeholder.com/800x200?text=CLI+Scan+Output)
-![AI Report UI](https://via.placeholder.com/800x200?text=AI+Generated+Flask+Report)
+![log.txt](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/log.png)
+![AI Report UI](https://raw.githubusercontent.com/yashtanwar17/AI-OSINT-Web/refs/heads/main/report.png)
 
 </details>
